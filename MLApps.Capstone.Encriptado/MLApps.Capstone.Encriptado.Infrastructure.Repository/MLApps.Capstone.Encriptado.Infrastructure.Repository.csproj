@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable> 
+	 <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.21" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MLApps.Capstone.Encriptado.Infrastructure.Data\MLApps.Capstone.Encriptado.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\MLApps.Capstone.Encriptado.Infrastructure.Interface\MLApps.Capstone.Encriptado.Infrastructure.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

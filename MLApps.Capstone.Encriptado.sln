@@ -1,0 +1,129 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Application", "2.Application", "{D56E4C59-9D5B-4B76-9A96-F1980188EFE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLApps.Capstone.Encriptado.Application.DTO", "MLApps.Capstone.Encriptado\MLApps.Capstone.Encriptado.Application.DTO\MLApps.Capstone.Encriptado.Application.DTO.csproj", "{EBBE868A-5B07-425C-86CD-D0580CE6278F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLApps.Capstone.Encriptado.Application.Interface", "MLApps.Capstone.Encriptado\MLApps.Capstone.Encriptado.Application.Interface\MLApps.Capstone.Encriptado.Application.Interface.csproj", "{65A74F33-BD99-4315-A29D-06E66C9435B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLApps.Capstone.Encriptado.Application.Main", "MLApps.Capstone.Encriptado\MLApps.Capstone.Encriptado.Application.Main\MLApps.Capstone.Encriptado.Application.Main.csproj", "{F4A8E266-2BF7-471E-BB62-C31EA7BEFFE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLApps.Capstone.Encriptado.Application.Validator", "MLApps.Capstone.Encriptado\MLApps.Capstone.Encriptado.Application.Validator\MLApps.Capstone.Encriptado.Application.Validator.csproj", "{923BD849-A00F-40BA-8015-F2BC60BB01E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Domain", "3.Domain", "{B3B70AD4-5DDC-4110-9A3D-E02ABE46E515}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLApps.Capstone.Encriptado.Domain.Core", "MLApps.Capstone.Encriptado\MLApps.Capstone.Encriptado.Domain.Core\MLApps.Capstone.Encriptado.Domain.Core.csproj", "{6DF8CA2A-16F8-4BB3-8A60-5E714F1C0364}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLApps.Capstone.Encriptado.Domain.Entity", "MLApps.Capstone.Encriptado\MLApps.Capstone.Encriptado.Domain.Entity\MLApps.Capstone.Encriptado.Domain.Entity.csproj", "{279C404F-6041-4BF0-9356-01881122A720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLApps.Capstone.Encriptado.Domain.Interface", "MLApps.Capstone.Encriptado\MLApps.Capstone.Encriptado.Domain.Interface\MLApps.Capstone.Encriptado.Domain.Interface.csproj", "{7AEA7F1C-185B-4A4E-AC2F-9FE7085A3E35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infrastructure", "4.Infrastructure", "{A8EE9979-F9BC-42C4-A60F-B7F0BEC866DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLApps.Capstone.Encriptado.Infrastructure.Data", "MLApps.Capstone.Encriptado\MLApps.Capstone.Encriptado.Infrastructure.Data\MLApps.Capstone.Encriptado.Infrastructure.Data.csproj", "{EF4A4863-85E7-487A-8CE9-5659A0D5E976}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLApps.Capstone.Encriptado.Infrastructure.Interface", "MLApps.Capstone.Encriptado\MLApps.Capstone.Encriptado.Infrastructure.Interface\MLApps.Capstone.Encriptado.Infrastructure.Interface.csproj", "{919EF92D-A8D9-4CF0-BF07-C45097C33A50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLApps.Capstone.Encriptado.Infrastructure.Repository", "MLApps.Capstone.Encriptado\MLApps.Capstone.Encriptado.Infrastructure.Repository\MLApps.Capstone.Encriptado.Infrastructure.Repository.csproj", "{D94F9E6A-E7AC-419F-AB72-1DB2821DA5FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Services", "1.Services", "{4F83FDCA-F48B-4B95-AECA-04A6ECBF232C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLApps.Capstone.Encriptado.Services.WebApi", "MLApps.Capstone.Encriptado\MLApps.Capstone.Encriptado.Services.WebApi\MLApps.Capstone.Encriptado.Services.WebApi.csproj", "{6AE5ABB9-4CB6-473A-904A-9BA829AE6E48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Transversal", "5.Transversal", "{932B7B4C-7DDC-486D-B6F8-8E750A22C4CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLApps.Capstone.Encriptado.Transversal.Common", "MLApps.Capstone.Encriptado\MLApps.Capstone.Encriptado.Transversal.Common\MLApps.Capstone.Encriptado.Transversal.Common.csproj", "{7CD08BC0-AE9A-482E-A938-A13834E3A2B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLApps.Capstone.Encriptado.Transversal.Logging", "MLApps.Capstone.Encriptado\MLApps.Capstone.Encriptado.Transversal.Logging\MLApps.Capstone.Encriptado.Transversal.Logging.csproj", "{D9CB8688-F40F-4F7E-AEE7-9E33CC2178C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLApps.Capstone.Encriptado.Transversal.Mapper", "MLApps.Capstone.Encriptado\MLApps.Capstone.Encriptado.Transversal.Mapper\MLApps.Capstone.Encriptado.Transversal.Mapper.csproj", "{84BFDD32-CC27-408E-91F1-00C9EB5CCF7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBBE868A-5B07-425C-86CD-D0580CE6278F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBBE868A-5B07-425C-86CD-D0580CE6278F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBBE868A-5B07-425C-86CD-D0580CE6278F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBBE868A-5B07-425C-86CD-D0580CE6278F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65A74F33-BD99-4315-A29D-06E66C9435B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65A74F33-BD99-4315-A29D-06E66C9435B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65A74F33-BD99-4315-A29D-06E66C9435B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65A74F33-BD99-4315-A29D-06E66C9435B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4A8E266-2BF7-471E-BB62-C31EA7BEFFE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4A8E266-2BF7-471E-BB62-C31EA7BEFFE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4A8E266-2BF7-471E-BB62-C31EA7BEFFE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4A8E266-2BF7-471E-BB62-C31EA7BEFFE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{923BD849-A00F-40BA-8015-F2BC60BB01E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{923BD849-A00F-40BA-8015-F2BC60BB01E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{923BD849-A00F-40BA-8015-F2BC60BB01E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{923BD849-A00F-40BA-8015-F2BC60BB01E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DF8CA2A-16F8-4BB3-8A60-5E714F1C0364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF8CA2A-16F8-4BB3-8A60-5E714F1C0364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF8CA2A-16F8-4BB3-8A60-5E714F1C0364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF8CA2A-16F8-4BB3-8A60-5E714F1C0364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{279C404F-6041-4BF0-9356-01881122A720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{279C404F-6041-4BF0-9356-01881122A720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{279C404F-6041-4BF0-9356-01881122A720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{279C404F-6041-4BF0-9356-01881122A720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AEA7F1C-185B-4A4E-AC2F-9FE7085A3E35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AEA7F1C-185B-4A4E-AC2F-9FE7085A3E35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AEA7F1C-185B-4A4E-AC2F-9FE7085A3E35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AEA7F1C-185B-4A4E-AC2F-9FE7085A3E35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF4A4863-85E7-487A-8CE9-5659A0D5E976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF4A4863-85E7-487A-8CE9-5659A0D5E976}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF4A4863-85E7-487A-8CE9-5659A0D5E976}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF4A4863-85E7-487A-8CE9-5659A0D5E976}.Release|Any CPU.Build.0 = Release|Any CPU
+		{919EF92D-A8D9-4CF0-BF07-C45097C33A50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{919EF92D-A8D9-4CF0-BF07-C45097C33A50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{919EF92D-A8D9-4CF0-BF07-C45097C33A50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{919EF92D-A8D9-4CF0-BF07-C45097C33A50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D94F9E6A-E7AC-419F-AB72-1DB2821DA5FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D94F9E6A-E7AC-419F-AB72-1DB2821DA5FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D94F9E6A-E7AC-419F-AB72-1DB2821DA5FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D94F9E6A-E7AC-419F-AB72-1DB2821DA5FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AE5ABB9-4CB6-473A-904A-9BA829AE6E48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AE5ABB9-4CB6-473A-904A-9BA829AE6E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AE5ABB9-4CB6-473A-904A-9BA829AE6E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AE5ABB9-4CB6-473A-904A-9BA829AE6E48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CD08BC0-AE9A-482E-A938-A13834E3A2B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD08BC0-AE9A-482E-A938-A13834E3A2B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD08BC0-AE9A-482E-A938-A13834E3A2B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD08BC0-AE9A-482E-A938-A13834E3A2B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9CB8688-F40F-4F7E-AEE7-9E33CC2178C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9CB8688-F40F-4F7E-AEE7-9E33CC2178C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9CB8688-F40F-4F7E-AEE7-9E33CC2178C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9CB8688-F40F-4F7E-AEE7-9E33CC2178C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84BFDD32-CC27-408E-91F1-00C9EB5CCF7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84BFDD32-CC27-408E-91F1-00C9EB5CCF7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84BFDD32-CC27-408E-91F1-00C9EB5CCF7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84BFDD32-CC27-408E-91F1-00C9EB5CCF7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EBBE868A-5B07-425C-86CD-D0580CE6278F} = {D56E4C59-9D5B-4B76-9A96-F1980188EFE2}
+		{65A74F33-BD99-4315-A29D-06E66C9435B8} = {D56E4C59-9D5B-4B76-9A96-F1980188EFE2}
+		{F4A8E266-2BF7-471E-BB62-C31EA7BEFFE6} = {D56E4C59-9D5B-4B76-9A96-F1980188EFE2}
+		{923BD849-A00F-40BA-8015-F2BC60BB01E4} = {D56E4C59-9D5B-4B76-9A96-F1980188EFE2}
+		{6DF8CA2A-16F8-4BB3-8A60-5E714F1C0364} = {B3B70AD4-5DDC-4110-9A3D-E02ABE46E515}
+		{279C404F-6041-4BF0-9356-01881122A720} = {B3B70AD4-5DDC-4110-9A3D-E02ABE46E515}
+		{7AEA7F1C-185B-4A4E-AC2F-9FE7085A3E35} = {B3B70AD4-5DDC-4110-9A3D-E02ABE46E515}
+		{EF4A4863-85E7-487A-8CE9-5659A0D5E976} = {A8EE9979-F9BC-42C4-A60F-B7F0BEC866DC}
+		{919EF92D-A8D9-4CF0-BF07-C45097C33A50} = {A8EE9979-F9BC-42C4-A60F-B7F0BEC866DC}
+		{D94F9E6A-E7AC-419F-AB72-1DB2821DA5FD} = {A8EE9979-F9BC-42C4-A60F-B7F0BEC866DC}
+		{6AE5ABB9-4CB6-473A-904A-9BA829AE6E48} = {4F83FDCA-F48B-4B95-AECA-04A6ECBF232C}
+		{7CD08BC0-AE9A-482E-A938-A13834E3A2B5} = {932B7B4C-7DDC-486D-B6F8-8E750A22C4CC}
+		{D9CB8688-F40F-4F7E-AEE7-9E33CC2178C2} = {932B7B4C-7DDC-486D-B6F8-8E750A22C4CC}
+		{84BFDD32-CC27-408E-91F1-00C9EB5CCF7D} = {932B7B4C-7DDC-486D-B6F8-8E750A22C4CC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B69E194F-6F61-4AE1-B4DF-474EC27F94CC}
+	EndGlobalSection
+EndGlobal

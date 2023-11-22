@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.HealthChecks.SqlServer" Version="7.0.0" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI" Version="7.0.2" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="7.1.0" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.InMemory.Storage" Version="7.0.0" />
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="MessagePack" Version="2.5.129" />
+    <PackageReference Include="MessagePack.AspNetCoreMvcFormatter" Version="2.5.129" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.13" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.13" />
+    <PackageReference Include="NLog" Version="5.2.5" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="5.3.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MLApps.Capstone.Encriptado.Application.DTO\MLApps.Capstone.Encriptado.Application.DTO.csproj" />
+    <ProjectReference Include="..\MLApps.Capstone.Encriptado.Application.Interface\MLApps.Capstone.Encriptado.Application.Interface.csproj" />
+    <ProjectReference Include="..\MLApps.Capstone.Encriptado.Application.Main\MLApps.Capstone.Encriptado.Application.Main.csproj" />
+    <ProjectReference Include="..\MLApps.Capstone.Encriptado.Application.Validator\MLApps.Capstone.Encriptado.Application.Validator.csproj" />
+    <ProjectReference Include="..\MLApps.Capstone.Encriptado.Domain.Core\MLApps.Capstone.Encriptado.Domain.Core.csproj" />
+    <ProjectReference Include="..\MLApps.Capstone.Encriptado.Domain.Entity\MLApps.Capstone.Encriptado.Domain.Entity.csproj" />
+    <ProjectReference Include="..\MLApps.Capstone.Encriptado.Domain.Interface\MLApps.Capstone.Encriptado.Domain.Interface.csproj" />
+    <ProjectReference Include="..\MLApps.Capstone.Encriptado.Infrastructure.Data\MLApps.Capstone.Encriptado.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\MLApps.Capstone.Encriptado.Infrastructure.Interface\MLApps.Capstone.Encriptado.Infrastructure.Interface.csproj" />
+    <ProjectReference Include="..\MLApps.Capstone.Encriptado.Infrastructure.Repository\MLApps.Capstone.Encriptado.Infrastructure.Repository.csproj" />
+    <ProjectReference Include="..\MLApps.Capstone.Encriptado.Transversal.Common\MLApps.Capstone.Encriptado.Transversal.Common.csproj" />
+    <ProjectReference Include="..\MLApps.Capstone.Encriptado.Transversal.Logging\MLApps.Capstone.Encriptado.Transversal.Logging.csproj" />
+    <ProjectReference Include="..\MLApps.Capstone.Encriptado.Transversal.Mapper\MLApps.Capstone.Encriptado.Transversal.Mapper.csproj" />
+  </ItemGroup>
+
+</Project>
