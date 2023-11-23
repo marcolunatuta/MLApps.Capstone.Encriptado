@@ -24,19 +24,16 @@ namespace MLApps.Capstone.Encriptado.Services.WebApi.Modules.Services
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "SSA Mexico S.A. de C.V. Services API VLog Plantilla para nuevos proyectos",
-                    Description = ".Net Core Minimal API",
-                    TermsOfService = new Uri($"{_ssamUrl}/files/privacypolicy.pdf"),
+                    Title = "Encriptado de tarjetas",
+                    Description = ".Net Core Web API API",
                     Contact = new OpenApiContact
                     {
-                        Name = "Equipo de desarrollo de software para la division de autos México.",
-                        Email = "autodivision.developersmx@ssamexico.com",
-                        Url = new Uri(_ssamUrl)
+                        Name = "Marco Antonio Luna Serrano",
+                        Email = "marco.luna@ssamexico.com",
                     },
                     License = new OpenApiLicense
                     {
                         Name = "Use under LICX",
-                        Url = new Uri($"{_ssamUrl}/files/privacypolicy.pdf")
                     }
                 });
                 // Set the comments path for the Swagger JSON and UI.

@@ -18,13 +18,18 @@ namespace MLApps.Capstone.Encriptado.Services.WebApi.Controllers.v1
         private readonly IEncriptadosApplication encriptadosApplication;
 
         /// <summary>
-        ///
+        /// Inyecta la capa de aplicación para consultar la lógica.
         /// </summary>
         public EncriptadosController(IEncriptadosApplication encriptadosApplication)
         {
             this.encriptadosApplication = encriptadosApplication;
         }
 
+        /// <summary>
+        /// Proporciona un flujo de encriptado/desencriptado de una tarjeta de crédito/débito valida.
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
         [HttpPost]
         public IActionResult Index(RequestApplication<string> request)
         {
