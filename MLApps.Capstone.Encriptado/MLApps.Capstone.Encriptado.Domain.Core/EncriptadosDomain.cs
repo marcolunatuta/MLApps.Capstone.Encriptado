@@ -35,12 +35,12 @@ namespace MLApps.Capstone.Encriptado.Domain.Core
             logger.LogDebug($"Se enmascara el texto original {request.Data} a {enmascaraTexto}");
 
             var creaHash = Hashing.ComputeHash(enmascaraTexto);
-            informacion.TextoEnmascaradoBase64 = creaHash;
+            informacion.TextoBase64 = creaHash;
             logger.LogDebug($"Se crea hash para {enmascaraTexto} así {creaHash}");
 
-            var encriptaAes = Simetrico.Encrypt(creaHash, Convert.FromBase64String(appSettings.Value.Key), Convert.FromBase64String(appSettings.Value.Iv));
+            var encriptaAes = Simetrico.Encrypt(request.Data, Convert.FromBase64String(appSettings.Value.Key), Convert.FromBase64String(appSettings.Value.Iv));
             informacion.TextoEncriptado = encriptaAes;
-            logger.LogDebug($"Se encripta nuestro Hash {creaHash} quedando así: {encriptaAes}");
+            logger.LogDebug($"Se encripta nuestro texto {request.Data} quedando así: {encriptaAes}");
 
             var desencriptaAes = Simetrico.Decrypt(informacion.TextoEncriptado, Convert.FromBase64String(appSettings.Value.Key), Convert.FromBase64String(appSettings.Value.Iv));
             if (string.IsNullOrEmpty(desencriptaAes))
@@ -49,10 +49,11 @@ namespace MLApps.Capstone.Encriptado.Domain.Core
                 return ResponseDomain<Informacion>.Fail("Cadena no contiene texto cifrado");
             }
             logger.LogDebug($"Cadena obtenida descifrada: {desencriptaAes}");
+            informacion.TextoDesencriptado = desencriptaAes;
 
-            var creaHashTextoDesencriptado = Hashing.ComputeHash(desencriptaAes);
-            logger.LogDebug($"Se crea hash de la cadena desencriptada: {creaHashTextoDesencriptado}");
-            var esCorrectoHash = Hashing.VerifyHash(creaHash, creaHashTextoDesencriptado);
+            var creaTextoDesencriptado = Hashing.ComputeHash(desencriptaAes);
+            logger.LogDebug($"Se crea hash de la cadena desencriptada: {creaTextoDesencriptado}");
+            var esCorrectoHash = Hashing.VerifyHash(request.Data, creaTextoDesencriptado);
             informacion.TextoEsValido = esCorrectoHash;
             logger.LogInformation($"El resultado de la evaluación de la comparativa de textos es: {esCorrectoHash}");
 
