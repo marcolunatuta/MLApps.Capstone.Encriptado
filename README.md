@@ -1,8 +1,10 @@
-# Entregable No. 2: Encriptación
+# Entregable No. 2: EncriptaciÃ³n
 
-Este proyecto realiza el flujo de encriptación y desencriptación de un número válido de tarjeta de crédito/débito para realizar compras.
+Este proyecto realiza el flujo de encriptaciÃ³n y desencriptaciÃ³n de un nÃºmero vÃ¡lido de tarjeta de crÃ©dito/dÃ©bito para realizar compras.
 Se filtra para los siguientes retail:
 
 - AMEX
 - Master Card
 - VISA
+
+Otras pruebas realizadas para enviar a SonarQube
