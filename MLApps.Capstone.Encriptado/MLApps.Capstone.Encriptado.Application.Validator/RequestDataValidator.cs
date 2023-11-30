@@ -7,6 +7,7 @@ namespace MLApps.Capstone.Encriptado.Application.Validator
     {
         public RequestDataValidator()
         {
+            // TODO: Reorganizar los comentarios
             RuleFor(campo => campo.ClienteAlias).NotEmpty();
             RuleFor(campo => campo.Data).NotEmpty()
                 // Valida que la longítud minima sea 14, por los casos de AMEX

@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace MLApps.Capstone.Encriptado.Transversal.Common.Extensions
 {
-    public class Mask
+    public static class Mask
     {
         public static readonly int CARACTERES_A_MOSTRAR = 4;
 
@@ -16,7 +16,7 @@ namespace MLApps.Capstone.Encriptado.Transversal.Common.Extensions
                 return cc;
 
             var cifrado = Enumerable.Repeat("*", cc.Length - CARACTERES_A_MOSTRAR);
-            return string.Join("", cifrado) + cc.Substring(cc.Length - CARACTERES_A_MOSTRAR);
+            return string.Join("", cifrado) + cc[^CARACTERES_A_MOSTRAR..];
         }
     }
 }

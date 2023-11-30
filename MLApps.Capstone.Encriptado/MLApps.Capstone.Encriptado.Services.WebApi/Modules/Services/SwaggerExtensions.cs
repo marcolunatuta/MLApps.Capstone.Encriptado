@@ -9,8 +9,6 @@ namespace MLApps.Capstone.Encriptado.Services.WebApi.Modules.Services
     /// </summary>
     public static class SwaggerExtensions
     {
-        private const string _ssamUrl = "https://www.ssamexico.com";
-
         /// <summary>
         /// Adds the swagger.
         /// </summary>

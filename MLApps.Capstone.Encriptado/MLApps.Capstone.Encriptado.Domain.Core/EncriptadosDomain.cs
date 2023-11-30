@@ -48,6 +48,7 @@ namespace MLApps.Capstone.Encriptado.Domain.Core
                 logger.LogInformation($"Se obtiene el valor cifrado de la cadena {informacion.TextoEncriptado}");
                 return ResponseDomain<Informacion>.Fail("Cadena no contiene texto cifrado");
             }
+
             logger.LogDebug($"Cadena obtenida descifrada: {desencriptaAes}");
             informacion.TextoDesencriptado = desencriptaAes;
 

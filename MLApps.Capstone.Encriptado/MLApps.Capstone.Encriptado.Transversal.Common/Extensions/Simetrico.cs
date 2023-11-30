@@ -4,7 +4,7 @@ using System.Security.Cryptography;
 
 namespace MLApps.Capstone.Encriptado.Transversal.Common.Extensions
 {
-    public class Simetrico
+    public static class Simetrico
     {
         public static string Encrypt(string plainText, byte[] key, byte[] iv)
         {

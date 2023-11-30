@@ -3,7 +3,7 @@ using System.Text;
 
 namespace MLApps.Capstone.Encriptado.Transversal.Common.Extensions
 {
-    public class Hashing
+    public static class Hashing
     {
         public static string ComputeHash(string input)
         {
@@ -22,6 +22,7 @@ namespace MLApps.Capstone.Encriptado.Transversal.Common.Extensions
 
         public static bool VerifyHash(string input, string hashedString)
         {
+            //TODO: Hacerlo más eficiente
             string newHash = ComputeHash(input);
             return newHash == hashedString;
         }

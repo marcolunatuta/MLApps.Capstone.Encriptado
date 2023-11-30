@@ -39,7 +39,6 @@ namespace MLApps.Capstone.Encriptado.Services.WebApi.Modules.Services
             services.Configure<AppSettingsConfig>(configuration.GetSection("AppSettingsConfig"));
             var appSettings = configuration.GetAppSettingsConfig();
 
-            services.AddResourceLocalization();
             services.AddAppLogging();
             services.AddAppControllers();
             services.AddEndpointsApiExplorer();
