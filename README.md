@@ -7,4 +7,4 @@ Se filtra para los siguientes retail:
 - Master Card
 - VISA
 
-Otras pruebas realizadas para enviar a SonarQube T
+Otras pruebas realizadas para enviar a SonarQube
