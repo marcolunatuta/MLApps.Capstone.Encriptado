@@ -48,6 +48,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		sonar-project.properties = sonar-project.properties
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Evidencias", "Evidencias", "{6A768B9C-47BF-41AC-B436-0788184A49BE}"
+	ProjectSection(SolutionItems) = preProject
+		Evidencias\FormatoTarjetaErroneo.PNG = Evidencias\FormatoTarjetaErroneo.PNG
+		Evidencias\FormatoTDCorrecto.PNG = Evidencias\FormatoTDCorrecto.PNG
+		Evidencias\TarjetaIncorrecta.PNG = Evidencias\TarjetaIncorrecta.PNG
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +136,7 @@ Global
 		{7CD08BC0-AE9A-482E-A938-A13834E3A2B5} = {932B7B4C-7DDC-486D-B6F8-8E750A22C4CC}
 		{D9CB8688-F40F-4F7E-AEE7-9E33CC2178C2} = {932B7B4C-7DDC-486D-B6F8-8E750A22C4CC}
 		{84BFDD32-CC27-408E-91F1-00C9EB5CCF7D} = {932B7B4C-7DDC-486D-B6F8-8E750A22C4CC}
+		{6A768B9C-47BF-41AC-B436-0788184A49BE} = {3A8D5A12-C46A-4D45-9F2B-812DA55C6F8B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B69E194F-6F61-4AE1-B4DF-474EC27F94CC}
